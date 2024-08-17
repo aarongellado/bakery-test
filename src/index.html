@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bakery</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="inner-container">
+      <div class="header">
+        <div class="header-left">
+          <div class="logo"></div>
+          <div class="menu">
+            <div class="menu-item">Store</div>
+            <div class="menu-item">About</div>
+            <div class="menu-item">Shipping</div>
+            <div class="menu-item">Recipes</div>
+            <div class="menu-item">Blog</div>
+          </div>
+          <div class="menu-alt">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000">
+              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="cart">
+            <button class="cart-btn" type="button" title="cart-btn">
+              <div class="cart-num">8</div>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#231F20">
+                <path
+                  d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="bg-assets">
+          <img src="<%= require('./assets/hero/bread1.png') %>" alt="" id="bg-asset-1" class="hero-bg-asset" />
+          <img src="<%= require('./assets/hero/bread2.png') %>" alt="" id="bg-asset-2" class="hero-bg-asset" />
+          <img src="<%= require('./assets/hero/bread3.png') %>" alt="" id="bg-asset-3" class="hero-bg-asset" />
+          <img src="<%= require('./assets/hero/bread4.png') %>" alt="" id="bg-asset-4" class="hero-bg-asset" />
+          <img src="<%= require('./assets/hero/bread5.png') %>" alt="" id="bg-asset-5" class="hero-bg-asset" />
+        </div>
+        <div class="order-now-container">
+          <h5 class="order-now">
+            ORDER NOW
+          </h5>
+        </div>
+        <div class="intro">
+          <div class="pre-head">bonjour</div>
+          <div class="heading">
+            Serving Baked Goods <strong>Every Day</strong>
+          </div>
+          <div class="description">
+            <p class="description-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="shop-btn-container">
+            <button class="shop-btn" type="button">
+              Shop Now
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="#e8eaed">
+                <path d="m700-300-57-56 84-84H120v-80h607l-83-84 57-56 179 180-180 180Z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <div class="info-section">
+          <div class="intro">
+            <div class="pre-head">patisserie</div>
+            <div class="heading stylized">Lorem Ipsum</div>
+            <div class="description">
+              <p class="description-paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p class="description-paragraph">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="about-footer">
+              <h6 class="social-text">Follow Us</h6>
+              <div class="social-divider"></div>
+              <div class="social-icons">
+                <div class="facebook">
+                  <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px"
+                    height="50px">
+                    <path
+                      d="M32,11h5c0.552,0,1-0.448,1-1V3.263c0-0.524-0.403-0.96-0.925-0.997C35.484,2.153,32.376,2,30.141,2C24,2,20,5.68,20,12.368 V19h-7c-0.552,0-1,0.448-1,1v7c0,0.552,0.448,1,1,1h7v19c0,0.552,0.448,1,1,1h7c0.552,0,1-0.448,1-1V28h7.222 c0.51,0,0.938-0.383,0.994-0.89l0.778-7C38.06,19.518,37.596,19,37,19h-8v-5C29,12.343,30.343,11,32,11z" />
+                  </svg>
+                </div>
+                <div class="instagram">
+                  <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"
+                    height="24px">
+                    <path
+                      d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="store-section">
+          <div class="store-carousel-container">
+            <div class="carousel-inner">
+              <div class="carousel-drag-area"></div>
+              <div class="carousel" id="carousel"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a target="_blank" href="https://icons8.com/icon/85154/instagram">Instagram</a> icon by <a target="_blank"
+    href="https://icons8.com">Icons8</a>
+  <a target="_blank" href="https://icons8.com/icon/106163/facebook-f">Facebook</a> icon by <a target="_blank"
+    href="https://icons8.com">Icons8</a>
+</body>
+
+</html>
